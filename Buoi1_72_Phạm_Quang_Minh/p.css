@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.table-wrapper {
+    border: 2px solid #555;
+    width: 100%;
+}
+
+.cart-header {
+    background-color: #008000;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-checkout {
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 13px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+thead tr {
+    background-color: black;
+    color: white;
+}
+
+th {
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+th.col-icon {
+    color: white;
+}
+
+td {
+    padding: 10px;
+    border: none;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #888888;
+    color: black;
+}
+
+.col-center { text-align: center; }
+.col-right { text-align: right; }
+.col-qty { text-align: center; }
+.col-icon { text-align: center; cursor: pointer;}
+
+.btn-delete {
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: blue;
+}
+.btn-delete:hover {
+    color: red;
+}
+
+.pagination-container {
+    background-color: #808080;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.pagination li a {
+    text-decoration: none;
+    color: blue;
+    background-color: white;
+    padding: 5px 12px;
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+}
+
+.pagination li a:hover {
+    background-color: #ddd;
+}
